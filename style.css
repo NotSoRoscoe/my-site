@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    color: #FFF;
+    background-color: #051b52;
+    margin: 0;
+    padding: 0 45px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-weight: normal;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex; 
+}
+
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+}
+
+.hero {
+    background-color: #828cb7;
+    background-image: url(Pics/code-back.png);
+    padding:          20px 45px;
+    display:          flex;
+    justify-content:  center;
+}
+
+.hero-inner {
+    max-width:   700px;
+}
+
+.hero h2 {
+    color: #f1e07b;
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+    color:rgb(186, 186, 186);
+}
+
+.about-me {
+    background-color: #d8d7d7;
+    padding: 60px; 
+}
+
+.projects {
+    background-color: #d8d7d7;
+    padding: 60px;
+}
+
+.about-me-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me-inner p {
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.projects-inner {
+    max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 20px;
+}
+
+.project-item h3 {
+    color: #303F9F;
+    font-size: 1.18rem;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 3%;
+}
+  
+.project-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.project-item a {
+    color:            #FFF;
+    text-decoration:  none;
+    font-size: .9rem;
+}
+
+.button {
+    background-color: #01579B;
+    padding:          3px 5px;
+    border-radius:    8px;
+    display:          inline-block;
+}
+
+.footer {
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    color: #AAA;
+    font-size: .9rem;
+    background-color: rgb(238, 246, 250);
+}
+
